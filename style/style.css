@@ -1,0 +1,80 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+
+.container{
+	width:85%;
+	margin:auto;
+}
+
+.page1{
+		background-color:#c5c4c45c;
+}
+.page{
+	height:100vh;
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	align-items:center;
+	margin:auto;
+
+
+	
+
+}
+.fbook{
+	width:45%;
+	
+}
+.fbook h1{
+	color:#1877f2;
+	font-size:5rem;
+	text-align:center;
+	margin:auto;
+}
+.fbook p{
+	font-size:20px;
+	line-height:1;
+	
+}
+.form{
+	width:30%;
+	background-color:white;
+	padding-top:1rem;
+	padding-bottom:2rem;
+	margin:auto;
+}
+.form input{
+	padding:20px;
+	width:90%;
+	margin-left:20px;
+	margin-top:20px;
+	/* background-color:#c5c4c45c; */
+	border-radius:10px;
+	margin-right:50px;
+}
+button{
+	margin-top:15px;
+	background-color:#1877f2;
+	padding:10px;
+	border-radius:10px;
+	width:90%;
+	color:white;
+		border:none;
+}
+	.form p{
+		color:#1877f2;
+		margin-top:15px;
+		
+	}
+.btn button{
+	background-color:#1b9c24;
+	width:85%;
+	margin:auto;
+	margin-top:15px;
+	border:none;
+}
+.
