@@ -7,7 +7,7 @@
     <title>Document</title>
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="reset/reset.css">
-	<script src="facebook.js"></script>
+
 </head>
 <body>
 		<div class="page1">
@@ -21,14 +21,16 @@
 				</div>
 				<div class="form">
 					<form>
-						<input type="text" class="text" placeholder="Enter your Eail or Phone number"><br>
+						<input type="text" class="text" id="email" placeholder="Enter your Eail or Phone number"></input><br>
+						<h3 id="empty"></h3>
 						<div id="emailerror">		</div>
-							<input type="password" class="text" placeholder="password"><br>
+							<input type="password" class="text" id="psw"placeholder="password"></input><br>
+							<h3 id="number"><h3>
 				
-						<button>Login</button>
+						<button onClick="myFunction()" type="submit" value="Login" id="btn">Login</button>
 						<p><a href="#">Forgot Password</a></p><br><hr>
-						<div class="btn">
-							<button><h2>Creatte New Account</h2></button>
+						<div class="butt">
+							<button type="submit" id="val"><h2>Creatte New Account</h2></button>
 						</div>
 					</form>
 				</div>
@@ -36,5 +38,7 @@
 		</div>
 	</div>
 	
+	
+		<script src="facebook.js"></script>
 </body>
 </html>
