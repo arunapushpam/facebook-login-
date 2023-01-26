@@ -1,44 +1,9 @@
-*
-{
-margin:0;
-padding:0;
-box-sizing:border-box;	
-}
-
-.container{
-	width:85%;
-	margin:auto;
-}
-
-.page1{
-		background-color:#c5c4c45c;
-}
-.page{
-	height:100vh;
-	display:flex;
-	justify-content:space-between;
-	text-align:center;
-	align-items:center;
-	margin:auto;
-
-
-	
-
-}
-.fbook{
-	width:45%;
-	
-}
-.fbook h1{
-	color:#1877f2;
-	font-size:5rem;
-	text-align:center;
-	margin:auto;
-}
-.fbook p{
-	font-size:20px;
-	line-height:1;
-	
+*{
+	margin:0;
+	padding:0; 
+	box-sizing:border-box;
+	background-color:#ecf0f3;
+	outline:none;
 }
 .form{
 	width:30%;

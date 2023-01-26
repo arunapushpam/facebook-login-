@@ -4,27 +4,27 @@ x.addEventListener("click", cal);
 		event.preventDefault();
 		var input1=document.getElementById("email").value;
 		// console.log(input1);
-		var input2=document.getElementById("psw").value;
+		var input2=document.getElementById("pass").value;
 		// console.log(input2);
-		var error=document.getElementById("empty");
-		var wrong=document.getElementById("number");
+		var a=document.getElementById("empty");
+		var b=document.getElementById("number");
 		if((input1==="")&&(input2==="")){
-			error.innerHTML="email cannot be blank";
-			wrong.innerHTML="password cannot be blank";
+			a.innerHTML=" please enter emil or phone ";
+			b.innerHTML="please enter Password";
 		}
 		else if(input1==""){
-			error.innerHTML="Enter cannot be blank";
+			a.innerHTML="Enter cannot be blank";
 			}
 		else if(input2==""){
-			wrong.innerHTML="enter cannot be blank";
+			b.innerHTML="enter password";
 			}
 		}
 		
 		
 		function myFunction(){
-			var log=document.getElementById ("email").value;
-			var correct=document.getElementById("psw").value;
-			if(log!==""&& correct!==""){
+			var c=document.getElementById ("email").value;
+			var d=document.getElementById("pass").value;
+			if(c!==""&& d!==""){
 			window.location.href="file:///D:/fabevy/practice/facebook-login-/facebook%20login.html?#"
 			}
 		}
